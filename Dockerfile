@@ -1,4 +1,4 @@
-FROM fabbly/alpine-glibc
+FROM fabbly/glibc
 LABEL maintainer="fabbly" \
          org.label-schema.name="snell-docker"
 
