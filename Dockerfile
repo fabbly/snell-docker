@@ -22,4 +22,4 @@ EXPOSE ${SERVER_PORT}/tcp
 EXPOSE ${SERVER_PORT}/udp
 
 COPY Entrypoint.sh /usr/local/bin/
-ENTRYPOINT ["Entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/Entrypoint.sh"]
